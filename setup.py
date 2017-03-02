@@ -1,4 +1,4 @@
-from setuptools import setup
+from distutils.core import setup
 
 setup(
     name='SmsBot',
@@ -7,5 +7,5 @@ setup(
     author='Nishchith Shetty',
     author_email='inishchith@gmail.com',
     url='https://github.com/inishchith/SmsBot',
-    packages=['Bot'],
+    packages=['SmsBot'],
 )

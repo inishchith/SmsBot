@@ -10,17 +10,15 @@
 
 **Installation**
 * You'll need python3
-* Pip3 is recommended for installing
-* Clone this repository .
+* Pip is recommended for installing
 ```
-cd Bot
-$ python3 setup.py install
+$ pip install SmsBot
 ```
 
 **Usage**
 
 ```python
-import SmsBot
+from Bot import SmsBot
 query = SmsBot.sms("username","password") # username is usually Mobile Number (Logging in)
 my_message=input("Enter Your Message")
 query.send("recipient",my_message) # recipient = receiver's number
@@ -38,4 +36,4 @@ Requests
 $ pip3 install requests
 ```
 
-**Note-** SmsBot.py Should be in your directory
+**Note-** Do not Misuse .
